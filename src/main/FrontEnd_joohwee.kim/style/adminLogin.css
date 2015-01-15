@@ -1,0 +1,57 @@
+h1{
+    width : 600px;
+    margin : auto;
+    text-align: center;
+    margin-bottom : 30px;
+    font-size : 70px;
+    font-weight : 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: -4px;
+    color : RGBA(40, 40, 40, 1);
+    margin-top : 100px;
+}
+
+div{
+    width : 100%;
+}
+form {
+    margin : auto;
+    width : 600px;
+    border : 1px solid RGBA(40,40,40,1);
+    border-radius: 10px;
+    padding : 50px 0px;
+}
+
+form p{
+    width : 80%;
+    margin : auto;
+    margin-bottom : 10px;
+    height: 30px;
+}
+
+form p span{
+    display: inline-block;
+    width : 20%;
+}
+
+form p input[type="text"], input[type="password"]{
+    width : 80%;
+    height : 100%;
+    border : none;
+    border-bottom : 1px solid RGBA(100,100,100,1);
+}
+
+form p:nth-child(3){
+    text-align: center;
+    margin-bottom : 0px;
+    height : inherit;
+}
+
+form p input[type="submit"]{
+    margin-top : 20px;
+    width : 80%;
+    height: 35px;
+    border : none;
+    background : RGBA(255,255,255,1);
+    border : 1px solid RGBA(200,200,200,1);
+}

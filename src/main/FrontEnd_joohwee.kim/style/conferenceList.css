@@ -1,0 +1,137 @@
+#header {
+    background-color: RGBA(200,200,200,1);
+    height: 50px;
+    position: fixed;
+    top : 0px;
+    left : 0px;
+    width : 100%;
+}
+
+#article {
+    margin-top : 130px;
+    margin-bottom : 100px;
+    width : 100%;
+}
+
+#article h1{
+    width : 80%;
+    max-width : 1500px;
+    min-width : 800px;
+    margin : auto;
+    text-align: left;
+    margin-bottom : 50px;
+    font-size : 70px;
+    font-weight : 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: -4px;
+    color : RGBA(40, 40, 40, 1);
+}
+
+#article ul {
+    width : 80%;
+    max-width : 1500px;
+    min-width : 800px;
+    margin : auto;
+}
+
+#article ul li {
+    height : 150px;
+    width : 100%;
+    border : 1px solid RGBA(200, 200,200,1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: table;
+}
+
+#article ul li div{
+    height : 100%;
+    width : 20%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#article ul li div p span {
+    margin-left : 10px;
+}
+
+#article ul li div.logo img{
+    margin :auto;
+    width : 60%;
+}
+
+#article ul li div.info{
+    width : 70%;
+    border-left : 1px solid RGBA(240, 240, 240,1);
+    border-right : 1px solid RGBA(240, 240, 240,1);
+}
+
+#article ul li div.info p{
+    margin : auto;
+    width: 95%;
+    text-align: left;
+    margin-bottom : 10px;
+    height : 20px;
+}
+
+div.info p::before{
+    display: inline-block;
+    width : 20%;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+    font-weight: 700;
+    
+}
+
+div.info p.title::before {
+    content : "TITLE";
+}
+
+div.info p.summary::before {
+    content : "SUMMARY";
+    height : 50px;
+    display : block;
+    float : left;
+}
+
+#article ul li div.info p.summary span{
+    width : 80%;
+    height : 50px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    display: block;
+}
+
+div.info p.startDay::before {
+    content : "START DAY";
+}
+
+#article ul li div.info p.summary {
+    height : 50px;
+}
+
+#article ul li div.info p.startDay {
+    margin-bottom : 0px;
+}
+
+#article ul li div.button{
+    width :10%;
+    text-align: center;
+}
+
+#article ul li div.button img{
+    width : 50%;
+    max-width  : 40px;
+}
+
+
+#footer {
+    position : absolute;
+    bottom : 0px;
+    left : 0px;
+    width : 100%;
+    height : 100px;
+    background : RGBA(200,200,200,1);
+}
+

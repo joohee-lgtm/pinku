@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, #container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family:Helvetica, 'Nanum Gothic', serif;;
+}
+
+ul, li {
+	list-style:none;
+	padding-left:0;
+}
+
+.intro {
+	position:relative;
+	height:300px;
+	background:url(http://deview.kr/data/deview/notice/2014/2/5.png) 50% 0 no-repeat;
+	color:#fff;
+}
+
+.intro h1 {
+	position:absolute;
+	left:0;
+	bottom:0;
+	margin:0;
+	font-size:70px;
+}
+
+.agenda {
+	display:block;
+	background-color:#37474f;
+	color:#fff;
+	padding-left:10%;
+	padding-right:10%;
+	height:200px;
+}
+
+.agd_list {
+	position:relative;
+	width:100%;
+	top:30px;
+}
+
+.agd_item {
+	float:left;
+	display:inline-block;
+	width: 33%;
+}
+
+.agd_img {
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	border-radius:50px;
+	background-color:#03a9f4;
+}
+
+.agd_des {
+	font-size:14px;
+	text-align:center;
+}
+
+.agd_des span {
+	margin-right:10px;
+	font-weight:bold;
+}
+
+.categories {
+	display:block;
+	padding-top:30px;
+	padding-bottom:20px;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.categories ul {
+	padding-left:5%;
+	overflow:hidden;
+}
+
+.ctg_title h2 {
+	padding-left:5%;
+	font-weight:lighter;
+}
+
+.ctg_name {
+	float:left;
+	width:19%;
+	margin-bottom:10px;
+}
+
+.ctg_name a {
+	text-decoration:none;
+	color:#000;
+}
+
+.ctg_name a span {
+	display:inline-block;
+	width:1em;
+	height:1em;
+	vertical-align:text-bottom;
+	border:2px solid #666;
+	border-radius:0.7em;
+	margin-right:5px;
+}
+
+.ctg_name a span:hover {
+	background-color:#666;
+}
+
+.ttbl_date h2 {
+	font-size:2.5em;
+	padding-left:0.5em;
+}
+
+.ttbl_date h2::after {
+	content:url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png");
+	margin-left:15px;
+}
+
+.ttbl_container {
+	display:block;
+	overflow:hidden;
+	padding-left:160px;
+	width:auto;
+}
+
+.ttbl_track1, .ttbl_track {
+	display:block;
+	position:relative;
+	float:left;
+	width:25%;
+}
+
+.ttbl_track1 .session_info {
+	position:absolute;
+	left:-160px;
+	text-align:center;
+	width:160px;
+	color:#a7a7a7;
+	font-size:14px;
+}
+
+.ttbl_track .session_info {
+	display:none;
+}
+
+.ttbl_track1 .session_info .session_num {
+	display:block;
+	font-weight:bold;
+	
+}
+
+.ttbl_track1 .track_title {
+	margin-left:-160px;
+	padding-left:160px;
+}
+
+.ttbl_container .track_title {
+	border-top:1px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.track_cont li {
+	padding:0.3em;
+	padding-bottom:1em;
+	overflow:hidden;
+}
+
+.track_cont li .icon_data, .track_cont li .icon_movie, .track_cont li .icon_del {
+	display:inline-block;
+	width:20px;
+	height:25px;
+	border:none;
+}
+
+.track_cont li .icon_data {
+	background:url(images/data.png);
+}
+
+.track_cont li .icon_movie {
+	background:url(images/movie.png);
+}
+
+.track_cont li .icon_del {
+	width:18px;
+	height:18px;
+	background:url(images/delete.png) no-repeat;
+
+}
+
+.session_title {
+	font-weight:bold;
+}
